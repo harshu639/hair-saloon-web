@@ -54,7 +54,7 @@ body {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/hero.jpg") center/cover no-repeat;
+    url("images/hero.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -263,3 +263,4 @@ footer .copyright {
   color: #666;
   font-size: 0.9rem;
 }
+
