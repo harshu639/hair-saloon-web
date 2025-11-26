@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: rgba(0, 0, 0, 0.677);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #d4af37;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #d4af37;
+}
+
+
+
+
+.booking-hero {
+    text-align: center;
+    padding: 120px 20px 40px;
+    background: #4b3400;
+    margin-top: 80px;
+}
+
+.booking-hero h1 {
+    color: #d4af37;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.booking-hero p {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+
+
+
+.booking-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+.booking-card {
+    background: #111;
+    padding: 30px;
+    width: 350px;
+    border-radius: 14px;
+    border: 1px solid #222;
+    box-shadow: 0 0 12px rgba(0,0,0,0.55);
+}
+
+.booking-card h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+.service-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background: #1a1a1a;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #222;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.service-option input {
+    margin-right: 10px;
+}
+
+.service-option:hover {
+    border-color: #d4af37;
+}
+
+
+
+.date-picker {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #222;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.date-picker:hover,
+.date-picker:focus {
+    border-color: #d4af37;
+    outline: none;
+}
+
+
+.date-picker::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+
+
+
+.time-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.time-grid label {
+    padding: 12px 18px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.time-grid input {
+    display: none;
+}
+
+.time-grid input:checked + span {
+    background: #d4af37;
+    color: #000;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+
+
+.submit-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.btn-submit {
+    background: #d4af37;
+    color: #000;
+    padding: 15px 45px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background: #b9922f;
+    transform: translateY(-3px);
+}
+
+
+
+
+footer {
+  background-color: #0b0b0b;
+  padding: 60px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-about h3 {
+  color: #d4af37;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 15px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer-links a:hover {
+  color: #d4af37;
+}
+
+.footer-contact p {
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+.socials a {
+  color: #d4af37;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #fff;
+}
+
+footer .copyright {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}

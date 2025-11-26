@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="bstyle.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+ <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">RoyalCuts</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html" class="active">Booking</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- BOOKING PAGE HERO -->
+<section class="booking-hero">
+    <h1>Book Your Appointment</h1>
+    <p>Choose your service, date and time</p>
+</section>
+
+
+<!-- MAIN BOOKING WRAPPER -->
+<div class="booking-wrapper">
+
+    <!-- SERVICE CARD -->
+    <div class="booking-card">
+        <h2>Select Service</h2>
+
+        <label class="service-option">
+            <input type="radio" name="service">
+            <span class="service-title">Haircut</span>
+        </label>
+
+        <label class="service-option">
+            <input type="radio" name="service">
+            <span class="service-title">Beard Trim</span>
+        </label>
+
+        <label class="service-option">
+            <input type="radio" name="service">
+            <span class="service-title">Hair Spa</span>
+        </label>
+
+        <label class="service-option">
+            <input type="radio" name="service">
+            <span class="service-title">Hair Styling</span>
+        </label>
+
+    </div>
+
+
+    <!-- DATE CARD -->
+<div class="booking-card">
+    <h2>Select Date</h2>
+    <input type="date" name="date" class="date-picker">
+</div>
+
+
+
+    <!-- TIME SLOT CARD -->
+    <div class="booking-card">
+        <h2>Select Time</h2>
+
+        <div class="time-grid">
+            <label><input type="radio" name="time"><span>10:00 AM</span></label>
+            <label><input type="radio" name="time"><span>11:00 AM</span></label>
+            <label><input type="radio" name="time"><span>12:00 PM</span></label>
+            <label><input type="radio" name="time"><span>1:00 PM</span></label>
+            <label><input type="radio" name="time"><span>3:00 PM</span></label>
+            <label><input type="radio" name="time"><span>5:00 PM</span></label>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- SUBMIT SECTION -->
+<div class="submit-section">
+    <button class="btn-submit">Confirm Booking</button>
+</div>
+
+
+ <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>RoyalCuts</h3>
+        <p>Classic style. Modern touch. Experience the art of grooming with RoyalCuts Barber Studio.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fa-solid fa-location-dot"></i> Connaught Place, New Delhi</p>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2025 RoyalCuts Barber Studio. All rights reserved.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
